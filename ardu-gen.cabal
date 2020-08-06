@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f4bb7310af0e71063669d7abefc8c897fad863495ae608083df0c17e5584a860
+-- hash: 7a17f5fc417e276113550f863384c6350d38e8b7edcd7bf5de00f15a49fca901
 
 name:           ardu-gen
 version:        0.1.0.0
@@ -26,11 +26,18 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      ArduGen
+      ArduGen.Arduino
+      ArduGen.Base
+      ArduGen.Byte
+      ArduGen.Stdlib
   other-modules:
       Paths_ardu_gen
   hs-source-dirs:
       src
   build-depends:
       base >=4.14 && <5
+    , containers
+    , mtl
+    , transformers
   default-language: Haskell2010
