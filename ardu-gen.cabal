@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 278ab1d84bb396316f1729f7119e60e9e718614efe6f2ced1ef67514bc533fbb
+-- hash: c2ba3a123e5832f6af5956ecc22759bc366a5e1944c0de57571b4a8158e2ab4d
 
 name:           ardu-gen
 version:        0.1.0.0
@@ -30,6 +30,7 @@ library
       ArduGen.Arduino
       ArduGen.Arduino.Char
       ArduGen.Arduino.IO
+      ArduGen.Arduino.Math
       ArduGen.Arduino.Random
       ArduGen.Arduino.Time
       ArduGen.Base

@@ -4,3 +4,4 @@ import ArduGen.Arduino.Char
 import ArduGen.Arduino.IO
 import ArduGen.Arduino.Time
 import ArduGen.Arduino.Random
+import ArduGen.Arduino.Math
