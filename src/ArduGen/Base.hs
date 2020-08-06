@@ -574,11 +574,8 @@ declareFun name = do
   where (params, res) = funTypeView (undefined :: f)
 
 
-declareFunExtern :: forall f.
-  ( FunType f
-  ) => String       -- ^ Function name
-    ->Fun f -- ^ Resulting function declaration
-declareFunExtern = Fun
+declareFunExtern :: String -> Fun a
+declareFunExtern = fun . trustMe 
 
 -- | Get a list of parameter names of a C function.
 class FunType funtype => FunParams names funtype where
