@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: c2ba3a123e5832f6af5956ecc22759bc366a5e1944c0de57571b4a8158e2ab4d
+-- hash: f180e895f15f3966dc37c172ae047c1230f266861a509363129943fa05c9287f
 
 name:           ardu-gen
 version:        0.1.0.0
