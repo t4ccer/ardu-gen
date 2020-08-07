@@ -4,6 +4,9 @@ module ArduGen.ESP32
       ledcAttachPin
     , ledcSetup
     , ledcWrite
+    -- PubSubClient
+    , PubSubClient
     ) where
 
 import ArduGen.ESP32.PWM
+import ArduGen.ESP32.PubSubClient
