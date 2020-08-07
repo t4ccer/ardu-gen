@@ -14,6 +14,7 @@ module ArduGen.ESP32
     , mqttConnected
     , mqttLoop
     , mqttPublish
+    , mqttInitializeClient
     ) where
 
 import ArduGen.ESP32.PWM

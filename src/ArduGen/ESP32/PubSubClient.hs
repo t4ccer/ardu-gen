@@ -2,10 +2,14 @@ module ArduGen.ESP32.PubSubClient where
 
 import ArduGen.Base
 import ArduGen.Byte
+import ArduGen.Arduino
 
 data PubSubClient
 instance ClassClass PubSubClient where
   className _ = "PubSubClient"
+
+mqttInitializeClient :: LVal (Class WiFiClient) -> RVal (Class PubSubClient)
+mqttInitializeClient wifi =trustMe ("PubSubClient(" ++ unVal wifi ++ ")") 
 
 mqttSetServer :: LVal (Class PubSubClient) -> Fun(String -> Int -> IO ())
 mqttSetServer client = declareFunExtern (unVal client ++ ".setServer")
