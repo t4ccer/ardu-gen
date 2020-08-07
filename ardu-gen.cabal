@@ -37,6 +37,7 @@ library
       ArduGen.Arduino.Random
       ArduGen.Arduino.Time
       ArduGen.Arduino.WiFiClient
+      ArduGen.Arduino.OTA
       ArduGen.ESP32
       ArduGen.ESP32.PWM
       ArduGen.ESP32.PubSubClient

@@ -2,7 +2,7 @@ module ArduGen
     (
     -- Base
       Generate, generate
-    , Val, LVal, RVal, Ptr, Fun, Struct, Type, typeOf, rval
+    , Val, LVal, RVal, Ptr, Fun, Struct, Class, Type, typeOf, rval
     , InhabitedType
     , sizeof, cond
     , address, deref, funPtr, fun, nullPtr, (!)
@@ -29,7 +29,7 @@ module ArduGen
     , (:>)(..)
     , declareFun, defineNewFun, defineFun
     , MainType, makeMain
-    , StructClass(..)
+    , StructClass(..), ClassClass(..)
     , defineStruct
     , (:->)(..)
     , comment

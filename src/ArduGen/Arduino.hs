@@ -41,6 +41,14 @@ module ArduGen.Arduino
     , isWhitespace
     -- WiFi
     , WiFiClient
+    , wifiBegin
+    , wifiStatus
+    -- OTA
+    , arduinoOTABegin
+    , arduinoOTASetHostname
+    , arduinoOTASetPort
+    , arduinoOTAOnEnd
+    , arduinoOTALoop
     ) where
 
 import ArduGen.Arduino.Char
@@ -49,4 +57,5 @@ import ArduGen.Arduino.Time
 import ArduGen.Arduino.Random
 import ArduGen.Arduino.Math
 import ArduGen.Arduino.WiFiClient
+import ArduGen.Arduino.OTA
 import Prelude()
