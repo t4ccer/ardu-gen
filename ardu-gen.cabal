@@ -27,15 +27,7 @@ source-repository head
 library
   exposed-modules:
       ArduGen
-      ArduGen.Arduino
-      ArduGen.Arduino.Char
-      ArduGen.Arduino.IO
-      ArduGen.Arduino.Math
-      ArduGen.Arduino.Random
-      ArduGen.Arduino.Time
-      ArduGen.Base
-      ArduGen.Byte
-      ArduGen.Stdlib
+      ArduGen.ESP32
   other-modules:
       Paths_ardu_gen
   hs-source-dirs:
