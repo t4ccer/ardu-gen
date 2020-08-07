@@ -36,8 +36,10 @@ library
       ArduGen.Arduino.Math
       ArduGen.Arduino.Random
       ArduGen.Arduino.Time
+      ArduGen.Arduino.WiFiClient
       ArduGen.ESP32
       ArduGen.ESP32.PWM
+      ArduGen.ESP32.PubSubClient
   other-modules:
       Paths_ardu_gen
   hs-source-dirs:
