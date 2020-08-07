@@ -8,6 +8,12 @@ module ArduGen.ESP32
     , ledcWrite
     -- PubSubClient
     , PubSubClient
+    , mqttSetServer
+    , mqttConnect
+    , mqttSetCallback
+    , mqttConnected
+    , mqttLoop
+    , mqttPublish
     ) where
 
 import ArduGen.ESP32.PWM
