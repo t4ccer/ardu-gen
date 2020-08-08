@@ -9,7 +9,7 @@ instance Type OneWire where
     typeOf _ v = "OneWire" <+> v
 instance InhabitedType OneWire where
 
-initializeOneWire :: Fun (Int -> IO OneWire)
+initializeOneWire :: Fun (Int -> IO (RVal (Class OneWire)))
 initializeOneWire = declareFunExtern "OneWire"
 
 data DallasTemperature = DallasTemperature
