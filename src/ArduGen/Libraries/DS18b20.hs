@@ -14,9 +14,9 @@ initializeOneWire = declareFunExtern "OneWire"
 
 data DallasTemperature = DallasTemperature
 instance ClassClass DallasTemperature where
-    className _ = "OneWire"
+    className _ = "DallasTemperature"
 instance Type DallasTemperature where
-    typeOf _ v = "OneWire" <+> v
+    typeOf _ v = "DallasTemperature" <+> v
 instance InhabitedType DallasTemperature where
 
 initializeDallasTemperature :: LVal (Class OneWire) -> RVal (Class DallasTemperature)
