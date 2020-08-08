@@ -1,4 +1,4 @@
-module ArduGen.ESP32.PubSubClient where
+module ArduGen.Libraries.PubSubClient where
 
 import ArduGen.Base
 import ArduGen.Byte

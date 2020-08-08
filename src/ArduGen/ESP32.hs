@@ -6,19 +6,9 @@ module ArduGen.ESP32
     , ledcAttachPin
     , ledcSetup
     , ledcWrite
-    -- PubSubClient
-    , PubSubClient
-    , mqttSetServer
-    , mqttConnect
-    , mqttSetCallback
-    , mqttConnected
-    , mqttLoop
-    , mqttPublish
-    , mqttInitializeClient
     ) where
 
 import ArduGen.ESP32.PWM
-import ArduGen.ESP32.PubSubClient
 import ArduGen.Base (declareFunExtern, Fun)
 
 restartESP :: Fun (IO ())

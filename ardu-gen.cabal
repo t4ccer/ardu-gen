@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f180e895f15f3966dc37c172ae047c1230f266861a509363129943fa05c9287f
+-- hash: 31be51bccc1a525fc29d038f69339f33fbaa59f4f3c71e4928525ad159495957
 
 name:           ardu-gen
 version:        0.1.0.0
@@ -27,20 +27,20 @@ source-repository head
 library
   exposed-modules:
       ArduGen
-      ArduGen.Base
-      ArduGen.Stdlib
-      ArduGen.Byte
       ArduGen.Arduino
       ArduGen.Arduino.Char
       ArduGen.Arduino.IO
       ArduGen.Arduino.Math
+      ArduGen.Arduino.OTA
       ArduGen.Arduino.Random
       ArduGen.Arduino.Time
       ArduGen.Arduino.WiFiClient
-      ArduGen.Arduino.OTA
+      ArduGen.Base
+      ArduGen.Byte
       ArduGen.ESP32
       ArduGen.ESP32.PWM
-      ArduGen.ESP32.PubSubClient
+      ArduGen.Libraries.PubSubClient
+      ArduGen.Stdlib
   other-modules:
       Paths_ardu_gen
   hs-source-dirs:
