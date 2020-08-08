@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 31be51bccc1a525fc29d038f69339f33fbaa59f4f3c71e4928525ad159495957
+-- hash: a9ba0c6a8c8158db50a96a743f52348d6d4820017ac068cfca9582ce7d6daffb
 
 name:           ardu-gen
 version:        0.1.0.0
@@ -39,6 +39,7 @@ library
       ArduGen.Byte
       ArduGen.ESP32
       ArduGen.ESP32.PWM
+      ArduGen.Libraries.DS18b20
       ArduGen.Libraries.PubSubClient
       ArduGen.Stdlib
   other-modules:
