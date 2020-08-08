@@ -34,9 +34,9 @@ begin sens = declareFunExtern (unVal sens ++ ".begin")
 getTemperatures :: LVal (Class DallasTemperature) -> Fun (IO ())
 getTemperatures sens = declareFunExtern (unVal sens ++ ".requestTemperatures")
 
-getTempCByIndex :: LVal (Class DallasTemperature) -> Fun (Int -> IO ())
+getTempCByIndex :: LVal (Class DallasTemperature) -> Fun (Int -> IO Double)
 getTempCByIndex sens = declareFunExtern (unVal sens ++ ".getTempCByIndex")
 
-getTempFByIndex :: LVal (Class DallasTemperature) -> Fun (Int -> IO ())
+getTempFByIndex :: LVal (Class DallasTemperature) -> Fun (Int -> IO Double)
 getTempFByIndex sens = declareFunExtern (unVal sens ++ ".getTempFByIndex")
 
